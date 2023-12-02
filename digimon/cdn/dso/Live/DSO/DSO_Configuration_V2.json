@@ -7,13 +7,13 @@
     }
   },
   "PatchInfo": {
-    "DownloadUrl": "https://digital-shinka.github.io/Site/UpdatePatch/",
+    "DownloadUrl": "https://andre3ro.github.io/Site/UpdatePatch/",
     "MinPatchVersion": 1,
-    "PatchVersion":80
+    "PatchVersion":81
   },
   "LanuncherInfo": {
-    "DownloadPath": "https://digital-shinka.github.io/Site/Launcher/",
-    "CurrentVersion": 322,
+    "DownloadPath": "https://andre3ro.github.io/Site/Launcher/",
+    "CurrentVersion": 325,
     "ExeFileName": "DSOLauncher.exe",
     "RunExeFileName": "GDMO.exe",
     "VersionList": [
@@ -81,11 +81,26 @@
             "Version": 322,
             "DownloadFile": "Launcher_322.zip"
           }
+           ,
+        {
+            "Version": 323,
+            "DownloadFile": "Launcher_323.zip"
+          }
+           ,
+        {
+            "Version": 324,
+            "DownloadFile": "Launcher_324.zip"
+          }
+           ,
+        {
+            "Version": 325,
+            "DownloadFile": "Launcher_325.zip"
+          }
     ]
   },
   "UMInfo": {
-    "DownloadPath": "https://digital-shinka.github.io/Site/UpdateManager/",
-    "CurrentVersion": 10,
+    "DownloadPath": "https://andre3ro.github.io/Site/UpdateManager/",
+    "CurrentVersion": 12,
     "ExeFileName": "UpdateManager.exe",
     "RunExeFileName": "DSOLauncher.exe",
     "VersionList": [
@@ -103,6 +118,16 @@
         "Version": 10,
         "DownloadFile": "UM_10.zip"
       }
+      ,
+	  {
+        "Version": 11,
+        "DownloadFile": "UM_11.zip"
+      }
+      ,
+	  {
+        "Version": 12,
+        "DownloadFile": "UM_12.zip"
+      }
     ]
   },
   "Redist": {
@@ -117,14 +142,14 @@
       }
     ]
   },
-  "RumbleConfig": "https://digital-shinka.github.io/digimon/cdn/rumble/live/RumbleConfig.json",
+  "RumbleConfig": "https://andre3ro.github.io//digimon/cdn/rumble/live/RumbleConfig.json",
   "MainUrl": [
     {
       "TypeName": "GSP",
       "HomePageUrl": "https://discord.gg/vtNnzfSF",
       "GameDownloadUrl": "https://discord.gg/vtNnzfSF",
-      "MainPageUrl": "https://digital-shinka.github.io/Site/main.html",
-      "BanerUrl": "https://digital-shinka.github.io/Site/banner.html",
+      "MainPageUrl": "hhttps://dsolauncher.000webhostapp.com/main.html",
+      "BanerUrl": "https://dsolauncher.000webhostapp.com/banner.html",
       "ClientIP": "game.digitalshinkaonline.com",
 	    "ClientPort": "7605",
       "Unlock":false
