@@ -13,45 +13,25 @@
   },
   "LanuncherInfo": {
     "DownloadPath": "https://andre3ro.github.io/Launcher/",
-    "CurrentVersion": 318,
+    "CurrentVersion": 326,
     "ExeFileName": "DSOLauncher.exe",
     "RunExeFileName": "GDMO.exe",
     "VersionList": [
         {
-            "Version": 325,
-            "DownloadFile": "Launcher_325.zip"
+            "Version": 326,
+            "DownloadFile": "Launcher_326.zip"
           }
     ]
   },
   "UMInfo": {
     "DownloadPath": "https://andre3ro.github.io/UpdateManager/",
-    "CurrentVersion": 12,
+    "CurrentVersion": 13,
     "ExeFileName": "UpdateManager.exe",
     "RunExeFileName": "DSOLauncher.exe",
     "VersionList": [
-      {
-        "Version": 8,
-        "DownloadFile": "UM_8.zip"
-      }
-	  ,
 	  {
-        "Version": 9,
-        "DownloadFile": "UM_9.zip"
-      }
-	   ,
-	  {
-        "Version": 10,
-        "DownloadFile": "UM_10.zip"
-      }
-      ,
-	  {
-        "Version": 11,
-        "DownloadFile": "UM_11.zip"
-      }
-      ,
-	  {
-        "Version": 12,
-        "DownloadFile": "UM_12.zip"
+        "Version": 13,
+        "DownloadFile": "UM_13.zip"
       }
     ]
   },
