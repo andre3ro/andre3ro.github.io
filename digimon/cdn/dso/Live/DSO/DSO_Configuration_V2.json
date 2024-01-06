@@ -1,6 +1,6 @@
 {
   "ServerInfo": {
-    "Maintenance": false,
+    "Maintenance": true,
     "Message": {
       "Title": "Digital Shinka Online In Development.",
       "Msg": "The server is undergoing inspection or updates.\nConnect to <https://discord.gg/vtNnzfSF for more information."
