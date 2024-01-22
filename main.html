@@ -3,6 +3,29 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
+	<script type="text/javascript">
+        function changeRandomImage() {
+            var images = [
+                "https://andre3ro.github.io/Banner1.1.bmp",
+                "url_de_la_tercera_imagen",
+                "url_de_la_cuarta_imagen"
+                // Agrega más URL de imágenes según sea necesario
+            ];
+
+            var randomIndex = Math.floor(Math.random() * images.length);
+            var randomImage = images[randomIndex];
+
+            var wrapDiv = document.getElementById('wrap');
+            wrapDiv.innerHTML = ''; // Limpiar el contenido actual
+
+            // Agregar la nueva imagen al div
+            wrapDiv.innerHTML = '<a href="" target="_blank"><img src="https://andre3ro.github.io/Banner1.bmp" /></a>' +
+                '<img src="' + randomImage + '" alt="Descripción de la imagen aleatoria" />';
+        }
+
+        // Cambiar la imagen cada 5 segundos (5000 milisegundos)
+        setInterval(changeRandomImage, 5000);
+    </script>
     <meta http-equiv="X-UA-Compatible" />
     <title>
         Welcome to Digital Shinka Online!!
