@@ -51,6 +51,29 @@
         * { margin: 0; padding: 0; border: none; }
         html { padding: 0; margin: 0; overflow-x: hidden; overflow-y: hidden; scrollbars: no; border: none; }
     </style>
+	<script type="text/javascript">
+        function changeRandomImage() {
+            var images = [
+                "https://andre3ro.github.io/Banner1.bmp",
+                "https://andre3ro.github.io/Banner1.1.bmp",
+                "url_de_la_cuarta_imagen"
+                // Agrega más URL de imágenes según sea necesario
+            ];
+
+            var randomIndex = Math.floor(Math.random() * images.length);
+            var randomImage = images[randomIndex];
+
+            var wrapDiv = document.getElementById('wrap');
+            wrapDiv.innerHTML = ''; // Limpiar el contenido actual
+
+            // Agregar la nueva imagen al div
+            wrapDiv.innerHTML = '<a href="" target="_blank"><img src="https://andre3ro.github.io/Banner1.bmp" /></a>' +
+                '<img src="' + randomImage + '" alt="Descripción de la imagen aleatoria" />';
+        }
+
+        // Cambiar la imagen cada 3 segundos (3000 milisegundos)
+        setInterval(changeRandomImage, 3000);
+    </script>
 </head>
 
 <body>
@@ -76,10 +99,14 @@
         </script>
 
         <div id="wrap">
-            <a href="" target="_blank">
-                <img src="https://dsolauncher2024.000webhostapp.com/Banner1.bmp" />
-            </a>
-        </div>
+   		 <a href="" target="_blank">
+       			 <img src="https://andre3ro.github.io/Banner1.bmp" />
+   		 </a>
+    
+    			<img src="https://andre3ro.github.io/Banner1.1.bmp" alt="Omega NPC Event" />
+    			<img src="url_de_la_tercera_imagen" alt="Descripción de la tercera imagen" />
+    			<img src="url_de_la_cuarta_imagen" alt="Descripción de la cuarta imagen" />
+	</div>
     </form>
 
     <div style="position:relative; width:1000px; margin: 0px auto; text-align:center; display:none; z-index:100;" id="popup_billion">
