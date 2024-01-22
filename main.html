@@ -51,6 +51,27 @@
         * { margin: 0; padding: 0; border: none; }
         html { padding: 0; margin: 0; overflow-x: hidden; overflow-y: hidden; scrollbars: no; border: none; }
     </style>
+    <script type="text/javascript">
+        function changeRandomImage() {
+            var images = [
+                "https://andre3ro.github.io/banner_omega_merciful.png",
+                // Agrega más URL de imágenes según sea necesario
+            ];
+
+            var randomIndex = Math.floor(Math.random() * images.length);
+            var randomImage = images[randomIndex];
+
+            var wrapDiv = document.getElementById('wrap');
+            wrapDiv.innerHTML = ''; // Limpiar el contenido actual
+
+            // Agregar la nueva imagen al div
+            wrapDiv.innerHTML = '<a href="" target="https://discord.gg/FARMfaTW"><img src="https://andre3ro.github.io/Banner1.bmp" /></a>' +
+                '<img src="' + randomImage + '" alt="" />';
+        }
+
+        // Cambiar la imagen cada 5 segundos (5000 milisegundos)
+        setInterval(changeRandomImage, 5000);
+    </script>
 </head>
 
 <body>
@@ -76,10 +97,12 @@
         </script>
 
         <div id="wrap">
-            <a href="" target="_blank">
-                <img src="https://andre3ro.github.io/Banner1.bmp" />
-            </a>
-        </div>
+    <a href="" target="_blank">
+        <img src="https://andre3ro.github.io/Banner1.bmp" />
+    </a>
+    
+    <img src="https://andre3ro.github.io/banner_omega_merciful.png" alt="" />
+</div>
     </form>
 
     <div style="position:relative; width:1000px; margin: 0px auto; text-align:center; display:none; z-index:100;" id="popup_billion">
